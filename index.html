@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>marcoautiero</title>
+	<link rel="icon" href="fav.png" sizes="16x16" type="image/png">
 	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 	<style>
 	body {
@@ -15,13 +16,15 @@
 	</style>
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<script>
-		setInterval(function(){
+		$(document).on("click", function(){
+			setInterval(function(){
 
-			var s = $("body").text();
-			var index = Math.floor(Math.floor(Math.random() * $("body").text().length)) + 0;
-			s = s.substr(0, index) + 'x' + s.substr(index + 1);
-			$("body").text(s);
-		},10);
+				var s = $("body").text();
+				var index = Math.floor(Math.floor(Math.random() * $("body").text().length)) + 0;
+				s = s.substr(0, index) + 'x' + s.substr(index + 1);
+				$("body").text(s);
+			},10);
+		});
 	</script>
 </head>
 <body>

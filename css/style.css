@@ -1,0 +1,43 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.full-height{
+	height: 100%;
+}
+
+
+.section-content-1 .col-n-1{
+	background-color: #000;
+}
+.section-content-1 .col-n-1 .content-wrapper{
+	display: table;
+	height: 100%;
+	margin: 0 30% 0 10%
+}
+.section-content-1 .col-n-1 .content-wrapper .content-1{
+	position: relative;
+	z-index: 1;
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 92px;
+	font-weight: bold;
+	line-height: 1;
+	text-transform: uppercase;
+}
+.section-content-1 .col-n-1 .content-wrapper .content-2{
+	position: absolute;
+    z-index: 0;
+    left: -5%;
+    top: 0;
+    width: 110%;
+    overflow: hidden;
+    color: #222;
+    font-size: 18px;
+}
+.section-content-1 .col-n-2{
+	position: relative;
+	z-index: 1;
+	background-color: #cbf145;
+}

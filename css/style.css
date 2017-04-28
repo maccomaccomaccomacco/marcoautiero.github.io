@@ -6,7 +6,9 @@ body {
 	height: 100%;
 }
 
-
+.section-1{
+	background-color: #000;	
+}
 .section-content-1 .col-n-1{
 	background-color: #000;
 }
@@ -40,4 +42,10 @@ body {
 	position: relative;
 	z-index: 1;
 	background-color: #cbf145;
+}
+
+@media (min-width: 768px) {
+	.section-1 .fp-scroller{
+		height: 100%;
+	}
 }

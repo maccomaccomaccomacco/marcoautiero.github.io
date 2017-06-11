@@ -1,5 +1,15 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+	position: relative;
+}
+
+.centered-message{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%,-50%); /* IE 9 */
+        -webkit-transform: translate(-50%,-50%);/* Chrome, Safari, Opera */
+        transform: translate(-50%,-50%);
 }
 
 .full-height{
@@ -15,7 +25,8 @@ body {
 .section-content-1 .col-n-1 .content-wrapper{
 	display: table;
 	height: 100%;
-	margin: 0 30% 0 10%
+	margin: 0 30% 0 10%;
+	text-align: center;
 }
 .section-content-1 .col-n-1 .content-wrapper .content-1{
 	position: relative;

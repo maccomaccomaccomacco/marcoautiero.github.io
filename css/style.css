@@ -10,6 +10,7 @@ body {
 	-ms-transform: translate(-50%,-50%); /* IE 9 */
         -webkit-transform: translate(-50%,-50%);/* Chrome, Safari, Opera */
         transform: translate(-50%,-50%);
+	color: rgb(240,240,240);
 }
 
 .full-height{
